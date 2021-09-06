@@ -6,7 +6,7 @@
         echo "Nilai $nama = $nilai<br>";
     }
     reset ($arrNilai);
-    echo "<br>Menampilkan isi array dengan while dan list : <br>";
+    echo "<br>Menampilkan isi array dengan while dan list : <br>"; //Masih error
     while(list($nama, $nilai) = each($arrNilai)) {
         echo "Nilai $nama = $nilai<br>";
     }
